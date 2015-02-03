@@ -15,18 +15,18 @@ eventListingApp.controller('eventListingCtrl', ['$scope', '$modal', 'events', 'e
 			}
 		});
 
-		// When add modal closes... update this view.
 		modalInstance
 			.result
-			.then(function (event) {
-				return eventServiceAPI.all();
-			})
-			.then(function (data){
-				$scope.events = data.data;
-			})
-			.catch(function(data) {
-				alert(data.error);
-				$scope.error = data.error;
+			.then(function () {
+				eventServiceAPI
+					.all()
+					.then(function(data){
+						$scope.events = data.data;
+					})
+					.catch(function(data) {
+						alert(data.error);
+						$scope.error = data.error;
+					});
 			});
 
 	};
@@ -45,15 +45,16 @@ eventListingApp.controller('eventListingCtrl', ['$scope', '$modal', 'events', 'e
 
 		modalInstance
 			.result
-			.then(function (event) {
-				return eventServiceAPI.all();
-			})
-			.then(function (data){
-				$scope.events = data.data;
-			})
-			.catch(function(data) {
-				alert(data.error);
-				$scope.error = data.error;
+			.then(function () {
+				eventServiceAPI
+					.all()
+					.then(function(data){
+						$scope.events = data.data;
+					})
+					.catch(function(data) {
+						alert(data.error);
+						$scope.error = data.error;
+					});
 			});
 	};
 

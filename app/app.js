@@ -14,7 +14,7 @@ eventListingApp.config(function($stateProvider, $urlRouterProvider) {
 			controller: 'eventListingCtrl',
 			resolve: {
 				events: function(eventServiceAPI){
-					return eventServiceAPI.all();
+					return eventServiceAPI.all_resolve();
 				}
 			}
 		})
@@ -24,7 +24,7 @@ eventListingApp.config(function($stateProvider, $urlRouterProvider) {
 			controller: 'eventListingCtrl',
 			resolve: {
 				events: function(eventServiceAPI){
-					return eventServiceAPI.all();
+					return eventServiceAPI.all_resolve();
 				}
 			}
 		})
@@ -34,7 +34,7 @@ eventListingApp.config(function($stateProvider, $urlRouterProvider) {
 			controller: 'eventListingCtrl',
 			resolve: {
 				events: function(eventServiceAPI){
-					return eventServiceAPI.all();
+					return eventServiceAPI.all_resolve();
 				}
 			}
 		});

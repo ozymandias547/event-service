@@ -1,14 +1,26 @@
 eventListingApp.factory('eventServiceAPI', [ '$q', '$rootScope', function($q, $rootScope) {
 
+	function all_resolve() {
+
+		var deferred = $q.defer();
+
+		VividSeats.eventService.all(function(data) {
+			deferred.resolve({data: data, error: null});
+		}, function(error) {
+			deferred.resolve({data: null, error: error});
+		});
+
+		return deferred.promise;
+
+	}
+
 	function all() {
 
 		var deferred = $q.defer();
 
 		VividSeats.eventService.all(function(data) {
-			$rootScope.$apply();
 			deferred.resolve({data: data, error: null});
 		}, function(error) {
-			$rootScope.$apply();
 			deferred.reject({data: null, error: error});
 		});
 
@@ -62,6 +74,7 @@ eventListingApp.factory('eventServiceAPI', [ '$q', '$rootScope', function($q, $r
 		all: all,
 		add: add,
 		remove: remove,
-		update: update
+		update: update,
+		all_resolve: all_resolve
 	};
 }]);

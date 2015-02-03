@@ -9,8 +9,8 @@ eventListingApp.controller('editEventCtrl', ['$scope', '$modalInstance', 'event'
 			.then(function() {
 				$modalInstance.close();
 			})
-			.catch(function(error) {
-				alert(error);
+			.catch(function(data) {
+				alert(data.error);
 			});
 
 	};
