@@ -1,0 +1,15 @@
+.event-tables {
+    margin-top: 50px;
+}
+
+.event-tables table {
+    border: 1px solid #ddd;
+}
+
+.event-tables tr {
+    border: none;
+}
+
+.event-tables .tabs {
+    border-bottom: 1px solid #ddd;
+}

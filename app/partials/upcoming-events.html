@@ -1,0 +1,27 @@
+<div class="table-responsive" ng-repeat="(key, value) in events | groupBy: 'date' ">
+	<h4>Events on {{ key | amDateFormat:'dddd, MMMM Do YYYY, h:mm a'}}</h4>
+	<table class="table">
+		<thead>
+		<th>Event Name</th>
+		<th>Date</th>
+		<th>Venue</th>
+		<th>City</th>
+		<th>State</th>
+		<th>Action</th>
+		</thead>
+		<tbody>
+		<tr ng-repeat="event in value">
+			<td>{{event.name}}</td>
+			<td>{{event.date | amDateFormat:'dddd, MMMM Do YYYY, h:mm a'}}</td>
+			<td>{{event.venue.name}}</td>
+			<td>{{event.venue.city}}</td>
+			<td>{{event.venue.state}}</td>
+			<td>
+				<a ng-click="remove(event)">Remove</a> / <a ng-click="edit(event)">Edit</a>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+<div ng-show="error" class="alert alert-danger" role="alert">{{ error }}.  <a ng-click="refreshState()" >Click to refresh.</a></div>
+<button class="btn btn-default" ng-click="add()">Add Event</button>
