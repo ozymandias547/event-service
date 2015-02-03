@@ -22,7 +22,7 @@ eventListingApp.controller('addEventCtrl', ['$scope', '$modalInstance', 'events'
 	};
 
 	$scope.cancel = function () {
-		$modalInstance.dismiss('cancel');
+		$modalInstance.close();
 	};
 
 }]);

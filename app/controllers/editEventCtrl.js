@@ -1,18 +1,17 @@
 eventListingApp.controller('editEventCtrl', ['$scope', '$modalInstance', 'event', 'eventServiceAPI', function($scope, $modalInstance, event, eventServiceAPI) {
 
-	$scope.event = event;
+	$scope.newEvent = _.clone(event);
 
 	$scope.ok = function () {
 
 		eventServiceAPI
-			.update($scope.event)
+			.update($scope.newEvent)
 			.then(function() {
 				$modalInstance.close();
 			})
 			.catch(function(error) {
 				alert(error);
 			});
-
 
 	};
 

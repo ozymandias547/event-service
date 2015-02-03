@@ -22,20 +22,18 @@ eventListingApp.controller('eventListingCtrl', ['$scope', '$modal', 'events', 'e
 				return eventServiceAPI.all();
 			})
 			.then(function (data){
-				$scope.events = data;
-				$scope.$apply();
+				$scope.events = data.data;
 			})
 			.catch(function(data) {
 				alert(data.error);
 				$scope.error = data.error;
-				$scope.$apply();
 			});
 
 	};
 
 	$scope.edit = function(event) {
 
-		$modal.open({
+		var modalInstance = $modal.open({
 			templateUrl: 'partials/edit-event.html',
 			controller: 'editEventCtrl',
 			resolve: {
@@ -44,6 +42,19 @@ eventListingApp.controller('eventListingCtrl', ['$scope', '$modal', 'events', 'e
 				}
 			}
 		});
+
+		modalInstance
+			.result
+			.then(function (event) {
+				return eventServiceAPI.all();
+			})
+			.then(function (data){
+				$scope.events = data.data;
+			})
+			.catch(function(data) {
+				alert(data.error);
+				$scope.error = data.error;
+			});
 	};
 
 	$scope.remove = function(event) {
