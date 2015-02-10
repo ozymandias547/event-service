@@ -5,3 +5,12 @@
 .event-tables table {
     border: 1px solid #ddd;
 }
+
+.loading-state {
+    display: none;
+}
+
+.loading-state:after {
+    content: "Loading";
+    background: blue;
+}

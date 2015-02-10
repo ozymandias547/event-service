@@ -147,7 +147,7 @@ var VividSeats = (function(){
 	var _simulateNetwork = function(onSuccess, onError) {
 		console.log()
 		var callback = Math.random() <= 0.90 ? onSuccess : onError;
-		setTimeout(function(){callback()}, Math.random() * 100);
+		setTimeout(function(){callback()}, Math.random() * 1000);
 	};
 
 

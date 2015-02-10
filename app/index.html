@@ -23,6 +23,8 @@
 	<script src="controllers/addEventCtrl.js"></script>
 	<script src="controllers/editEventCtrl.js"></script>
 	<script src="services/eventServiceAPI.js"></script>
+	<script src="directives/state-loader.js"></script>
+
 
 </head>
 
@@ -41,7 +43,7 @@
 						<a ui-sref="local-events">Local Events</a>
 					</li>
 				</ul>
-				<div ui-view></div>
+				<div ui-view state-loader></div>
 			</div>
 		</div>
 	</section>

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dffc1e25-8c95-41d4-9559-7abcfbd50ee6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/spec/controllers/addEventCtrlSpec.js" afterPath="$PROJECT_DIR$/tests/spec/controllers/addEventCtrlSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/event-listing.html" afterPath="$PROJECT_DIR$/app/partials/event-listing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/event-service.iml" afterPath="$PROJECT_DIR$/.idea/event-service.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/event-service.js" afterPath="$PROJECT_DIR$/app/event-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my.conf.js" afterPath="$PROJECT_DIR$/my.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style.css" afterPath="$PROJECT_DIR$/app/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="event-service.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,6 +22,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/event-service$my_conf_js.coverage" NAME="my.conf.js Coverage Results" MODIFIED="1423029501897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="KarmaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -26,102 +37,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="addEventCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/addEventCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-              <folding>
-                <element signature="e#257#279#0" expanded="true" />
-                <element signature="e#447#478#0" expanded="true" />
-                <element signature="e#516#556#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editEventCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/editEventCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-              <folding>
-                <element signature="e#158#463#0" expanded="true" />
-                <element signature="e#222#387#0" expanded="true" />
-                <element signature="e#291#325#0" expanded="true" />
-                <element signature="e#419#459#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eventListingCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/eventListingCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1290">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-              <folding>
-                <element signature="e#237#691#0" expanded="true" />
-                <element signature="e#388#422#0" expanded="true" />
-                <element signature="e#483#685#0" expanded="true" />
-                <element signature="e#542#583#0" expanded="true" />
-                <element signature="e#612#678#0" expanded="true" />
-                <element signature="e#877#903#0" expanded="true" />
-                <element signature="e#964#1166#0" expanded="true" />
-                <element signature="e#1023#1064#0" expanded="true" />
-                <element signature="e#1093#1159#0" expanded="true" />
-                <element signature="e#1207#1540#0" expanded="true" />
-                <element signature="e#1367#1472#0" expanded="true" />
-                <element signature="e#1424#1464#0" expanded="true" />
-                <element signature="e#1500#1531#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eventServiceAPI.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="eventServiceAPI.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/services/eventServiceAPI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1275">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.6164383" vertical-offset="0" max-vertical-offset="975">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
               <folding>
                 <element signature="e#117#354#0" expanded="true" />
-                <element signature="e#195#248#0" expanded="true" />
-                <element signature="e#266#320#0" expanded="true" />
                 <element signature="e#372#608#0" expanded="true" />
-                <element signature="e#450#503#0" expanded="true" />
-                <element signature="e#521#574#0" expanded="true" />
-                <element signature="e#716#769#0" expanded="true" />
                 <element signature="e#787#840#0" expanded="true" />
                 <element signature="e#900#1146#0" expanded="true" />
                 <element signature="e#988#1041#0" expanded="true" />
                 <element signature="e#1059#1112#0" expanded="true" />
-                <element signature="e#1172#1418#0" expanded="true" />
-                <element signature="e#1260#1313#0" expanded="true" />
-                <element signature="e#1331#1384#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event-service.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/event-service.js">
+      <file leaf-file-name="state-loader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/directives/state-loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26086956" vertical-offset="1995" max-vertical-offset="2685">
-              <caret line="145" column="6" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#2545#2572#0" expanded="true" />
-                <element signature="e#2669#2928#0" expanded="true" />
-                <element signature="e#2703#2923#0" expanded="true" />
-                <element signature="e#2798#2912#0" expanded="true" />
-                <element signature="e#2966#3043#0" expanded="true" />
-                <element signature="e#3077#3432#0" expanded="true" />
-                <element signature="e#3487#3628#0" expanded="true" />
-                <element signature="e#3697#3817#0" expanded="true" />
-                <element signature="e#3867#3994#0" expanded="true" />
-                <element signature="e#4041#4165#0" expanded="true" />
-                <element signature="e#4215#4342#0" expanded="true" />
+                <element signature="e#165#512#0" expanded="true" />
+                <element signature="e#221#367#0" expanded="true" />
+                <element signature="e#420#470#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event-listing.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/partials/event-listing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.235294" vertical-offset="0" max-vertical-offset="600">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="n#ul#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.25" vertical-offset="237" max-vertical-offset="870">
+              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,28 +126,34 @@
         <option value="$PROJECT_DIR$/controllers/addEventCtrl.js" />
         <option value="$PROJECT_DIR$/tests/addEventCtrlSpec.js" />
         <option value="$PROJECT_DIR$/.bowerrc" />
-        <option value="$PROJECT_DIR$/my.conf.js" />
-        <option value="$PROJECT_DIR$/tests/spec/controllers/addEventCtrlSpec.js" />
         <option value="$PROJECT_DIR$/app/services/vsAPI.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/partials/edit-event.html" />
-        <option value="$PROJECT_DIR$/app/style.css" />
         <option value="$PROJECT_DIR$/app/services/eventServiceAPI.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/controllers/addEventCtrl.js" />
         <option value="$PROJECT_DIR$/app/controllers/eventListingCtrl.js" />
         <option value="$PROJECT_DIR$/app/controllers/editEventCtrl.js" />
         <option value="$PROJECT_DIR$/app/event-service.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/my.conf.js" />
+        <option value="$PROJECT_DIR$/tests/spec/services/eventServiceAPISpec.js" />
+        <option value="$PROJECT_DIR$/tests/spec/controllers/addEventCtrlSpec.js" />
+        <option value="$PROJECT_DIR$/app/partials/event-listing.html" />
+        <option value="$PROJECT_DIR$/app/directives/state-loader.js" />
+        <option value="$PROJECT_DIR$/app/style.css" />
       </list>
     </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="JsKarmaPackageDirSetting">
+    <data>$PROJECT_DIR$/node_modules/karma</data>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="808" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -199,6 +178,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,6 +194,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="event-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,17 +305,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/jasmine-core/lib/jasmine-core.js" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -301,10 +346,14 @@
       <recent name="$PROJECT_DIR$/tests/spec/controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="Karma.my.conf.js">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/event-service/app/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -322,8 +371,17 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    <configuration default="false" name="my.conf.js" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="$PROJECT_DIR$/my.conf.js">
+      <envs />
+      <RunnerSettings RunnerId="KarmaCoverageProgramRunner" />
+      <RunnerSettings RunnerId="KarmaJavaScriptTestRunnerRun" />
+      <ConfigurationWrapper RunnerId="KarmaCoverageProgramRunner" />
+      <ConfigurationWrapper RunnerId="KarmaJavaScriptTestRunnerRun" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Karma.my.conf.js" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -333,16 +391,17 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="808" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="801" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17406625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23537703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21170212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -350,6 +409,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16240682" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -380,21 +440,125 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tests/spec/controllers/addEventCtrlSpec.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="660">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#134#490#0" expanded="false" />
+            <element signature="e#197#486#0" expanded="false" />
+            <element signature="e#555#598#0" expanded="false" />
+            <element signature="e#675#724#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spec/services/eventServiceAPISpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/eventListingCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1290">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#237#691#0" expanded="true" />
+            <element signature="e#274#431#0" expanded="false" />
+            <element signature="e#362#427#0" expanded="false" />
+            <element signature="e#483#685#0" expanded="true" />
+            <element signature="e#542#583#0" expanded="true" />
+            <element signature="e#612#678#0" expanded="true" />
+            <element signature="e#877#903#0" expanded="true" />
+            <element signature="e#1023#1064#0" expanded="true" />
+            <element signature="e#1305#1537#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spec/controllers/addEventCtrlSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="660">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#134#490#0" expanded="false" />
+            <element signature="e#197#486#0" expanded="false" />
+            <element signature="e#555#598#0" expanded="false" />
+            <element signature="e#675#724#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/eventListingCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#237#691#0" expanded="true" />
+            <element signature="e#274#431#0" expanded="false" />
+            <element signature="e#362#427#0" expanded="false" />
+            <element signature="e#483#685#0" expanded="true" />
+            <element signature="e#542#583#0" expanded="true" />
+            <element signature="e#612#678#0" expanded="true" />
+            <element signature="e#877#903#0" expanded="true" />
+            <element signature="e#1023#1064#0" expanded="true" />
+            <element signature="e#1305#1537#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/eventServiceAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1275">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/event-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1935" max-vertical-offset="2685">
+          <caret line="148" column="61" selection-start-line="148" selection-start-column="61" selection-end-line="148" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/directives/state-loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/add-event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/addEventCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spec/controllers/addEventCtrlSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
-            <element signature="e#134#168#0" expanded="true" />
-            <element signature="e#211#1558#0" expanded="true" />
-            <element signature="e#272#869#0" expanded="true" />
-            <element signature="e#301#652#0" expanded="true" />
-            <element signature="e#336#646#0" expanded="true" />
-            <element signature="e#716#763#0" expanded="true" />
-            <element signature="e#819#862#0" expanded="true" />
-            <element signature="e#932#1552#0" expanded="true" />
-            <element signature="e#961#1334#0" expanded="true" />
-            <element signature="e#996#1328#0" expanded="true" />
-            <element signature="e#1393#1437#0" expanded="true" />
-            <element signature="e#1499#1545#0" expanded="true" />
+            <element signature="e#134#490#0" expanded="false" />
+            <element signature="e#197#486#0" expanded="false" />
+            <element signature="e#555#598#0" expanded="false" />
+            <element signature="e#675#724#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -403,9 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1125">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,16 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,49 +582,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#134#168#0" expanded="true" />
-            <element signature="e#211#1558#0" expanded="true" />
-            <element signature="e#272#869#0" expanded="true" />
-            <element signature="e#301#652#0" expanded="true" />
-            <element signature="e#336#646#0" expanded="true" />
-            <element signature="e#716#763#0" expanded="true" />
-            <element signature="e#819#862#0" expanded="true" />
-            <element signature="e#932#1552#0" expanded="true" />
-            <element signature="e#961#1334#0" expanded="true" />
-            <element signature="e#996#1328#0" expanded="true" />
-            <element signature="e#1393#1437#0" expanded="true" />
-            <element signature="e#1499#1545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/spec/controllers/addEventCtrlSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06787331" vertical-offset="0" max-vertical-offset="1320">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding>
-            <element signature="e#134#168#0" expanded="true" />
-            <element signature="e#211#1558#0" expanded="true" />
-            <element signature="e#272#869#0" expanded="true" />
-            <element signature="e#301#652#0" expanded="true" />
-            <element signature="e#336#646#0" expanded="true" />
-            <element signature="e#716#763#0" expanded="true" />
-            <element signature="e#819#862#0" expanded="true" />
-            <element signature="e#932#1552#0" expanded="true" />
-            <element signature="e#961#1334#0" expanded="true" />
-            <element signature="e#996#1328#0" expanded="true" />
-            <element signature="e#1393#1437#0" expanded="true" />
-            <element signature="e#1499#1545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26086956" vertical-offset="0" max-vertical-offset="1230">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#134#490#0" expanded="false" />
+            <element signature="e#197#486#0" expanded="false" />
+            <element signature="e#555#598#0" expanded="false" />
+            <element signature="e#675#724#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -482,27 +594,151 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/all-events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/edit-event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47297296" vertical-offset="0" max-vertical-offset="666">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/local-events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6081081" vertical-offset="0" max-vertical-offset="666">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/upcoming-events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22522523" vertical-offset="0" max-vertical-offset="666">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27244583" vertical-offset="482" max-vertical-offset="1275">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/add-event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68720376" vertical-offset="0" max-vertical-offset="633">
+          <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#form#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#form#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#form#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#form#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#form#0;n#div#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/event-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.543379" vertical-offset="1368" max-vertical-offset="2025">
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+          <folding>
+            <element signature="e#3487#3629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spec/controllers/addEventCtrlSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11415525" vertical-offset="0" max-vertical-offset="660">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#134#490#0" expanded="false" />
+            <element signature="e#197#486#0" expanded="false" />
+            <element signature="e#555#598#0" expanded="false" />
+            <element signature="e#675#724#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29680365" vertical-offset="0" max-vertical-offset="840">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="e#1141#1309#0" expanded="true" />
+            <element signature="e#1253#1306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/addEventCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13975155" vertical-offset="0" max-vertical-offset="644">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+          <folding>
+            <element signature="e#384#418#0" expanded="false" />
+            <element signature="e#447#478#0" expanded="false" />
+            <element signature="e#516#556#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/editEventCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30279502" vertical-offset="0" max-vertical-offset="644">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#291#325#0" expanded="true" />
+            <element signature="e#352#381#0" expanded="true" />
+            <element signature="e#419#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spec/services/eventServiceAPISpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/style.css">
+    <entry file="file://$PROJECT_DIR$/app/controllers/eventListingCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1521739" vertical-offset="0" max-vertical-offset="690">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.628882" vertical-offset="180" max-vertical-offset="870">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="e#237#691#0" expanded="true" />
+            <element signature="e#274#431#0" expanded="false" />
+            <element signature="e#362#427#0" expanded="false" />
+            <element signature="e#483#685#0" expanded="true" />
+            <element signature="e#542#583#0" expanded="true" />
+            <element signature="e#612#678#0" expanded="true" />
+            <element signature="e#877#903#0" expanded="true" />
+            <element signature="e#1023#1064#0" expanded="true" />
+            <element signature="e#1305#1537#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.518018" vertical-offset="0" max-vertical-offset="840">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        <state vertical-scroll-proportion="-18.25" vertical-offset="237" max-vertical-offset="870">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
           <folding>
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -511,101 +747,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/all-events.html">
+    <entry file="file://$PROJECT_DIR$/app/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.25114155" vertical-offset="0" max-vertical-offset="657">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/edit-event.html">
+    <entry file="file://$PROJECT_DIR$/app/directives/state-loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47297296" vertical-offset="0" max-vertical-offset="666">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#form#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#form#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#!!top" expanded="false" />
+            <element signature="e#165#512#0" expanded="true" />
+            <element signature="e#221#367#0" expanded="true" />
+            <element signature="e#420#470#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/event-listing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7657658" vertical-offset="0" max-vertical-offset="666">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        <state vertical-scroll-proportion="-3.235294" vertical-offset="0" max-vertical-offset="600">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#thead#0;n#table#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/local-events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6081081" vertical-offset="0" max-vertical-offset="666">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#thead#0;n#table#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/add-event.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#!!top" expanded="true" />
-            <element signature="n#form#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#form#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#form#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#form#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#form#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#form#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8043478" vertical-offset="0" max-vertical-offset="930">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding>
-            <element signature="e#395#445#0" expanded="true" />
-            <element signature="e#649#699#0" expanded="true" />
-            <element signature="e#894#944#0" expanded="true" />
-            <element signature="e#1141#1309#0" expanded="true" />
-            <element signature="e#1253#1306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/upcoming-events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22522523" vertical-offset="0" max-vertical-offset="666">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="n#thead#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
@@ -613,93 +781,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/addEventCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="e#257#279#0" expanded="true" />
-            <element signature="e#447#478#0" expanded="true" />
-            <element signature="e#516#556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/editEventCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="e#158#463#0" expanded="true" />
-            <element signature="e#222#387#0" expanded="true" />
-            <element signature="e#291#325#0" expanded="true" />
-            <element signature="e#419#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/eventListingCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1290">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding>
-            <element signature="e#237#691#0" expanded="true" />
-            <element signature="e#388#422#0" expanded="true" />
-            <element signature="e#483#685#0" expanded="true" />
-            <element signature="e#542#583#0" expanded="true" />
-            <element signature="e#612#678#0" expanded="true" />
-            <element signature="e#877#903#0" expanded="true" />
-            <element signature="e#964#1166#0" expanded="true" />
-            <element signature="e#1023#1064#0" expanded="true" />
-            <element signature="e#1093#1159#0" expanded="true" />
-            <element signature="e#1207#1540#0" expanded="true" />
-            <element signature="e#1367#1472#0" expanded="true" />
-            <element signature="e#1424#1464#0" expanded="true" />
-            <element signature="e#1500#1531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/eventServiceAPI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1275">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.6164383" vertical-offset="0" max-vertical-offset="975">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
           <folding>
             <element signature="e#117#354#0" expanded="true" />
-            <element signature="e#195#248#0" expanded="true" />
-            <element signature="e#266#320#0" expanded="true" />
             <element signature="e#372#608#0" expanded="true" />
-            <element signature="e#450#503#0" expanded="true" />
-            <element signature="e#521#574#0" expanded="true" />
-            <element signature="e#716#769#0" expanded="true" />
             <element signature="e#787#840#0" expanded="true" />
             <element signature="e#900#1146#0" expanded="true" />
             <element signature="e#988#1041#0" expanded="true" />
             <element signature="e#1059#1112#0" expanded="true" />
-            <element signature="e#1172#1418#0" expanded="true" />
-            <element signature="e#1260#1313#0" expanded="true" />
-            <element signature="e#1331#1384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/event-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26086956" vertical-offset="1995" max-vertical-offset="2685">
-          <caret line="145" column="6" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#2545#2572#0" expanded="true" />
-            <element signature="e#2669#2928#0" expanded="true" />
-            <element signature="e#2703#2923#0" expanded="true" />
-            <element signature="e#2798#2912#0" expanded="true" />
-            <element signature="e#2966#3043#0" expanded="true" />
-            <element signature="e#3077#3432#0" expanded="true" />
-            <element signature="e#3487#3628#0" expanded="true" />
-            <element signature="e#3697#3817#0" expanded="true" />
-            <element signature="e#3867#3994#0" expanded="true" />
-            <element signature="e#4041#4165#0" expanded="true" />
-            <element signature="e#4215#4342#0" expanded="true" />
           </folding>
         </state>
       </provider>
